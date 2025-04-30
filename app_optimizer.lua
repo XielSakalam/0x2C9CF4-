@@ -1,4 +1,4 @@
--- app_optimizer.lua
+-- xiel_optimizer.lua - - Ito dapat name ng file mo sa inj mo. Wag mo lagay sa folder. 
 -- Lua module to optimize app performance for rooted Android environment
 -- Implements various performance improvements and utilities
 
