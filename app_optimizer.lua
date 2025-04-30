@@ -2,7 +2,7 @@
 -- Lua module to optimize app performance for rooted Android environment
 -- Implements various performance improvements and utilities
 
-local app_optimizer = {}
+local xiel_optimizer = {}
 
 -- 1. Use local variables extensively
 local ipairs = ipairs
@@ -200,7 +200,7 @@ function app_optimizer.fps_throttle(target_fps)
 end
 
 -- Usage instructions:
--- local optimizer = require("app_optimizer")
+-- local optimizer = require("xiel_optimizer")
 -- optimizer.tune_gc(150, 250)
 -- local elapsed, result = optimizer.profile(function_to_test, arg1, arg2)
 -- local root_result = optimizer.run_root_command("ls /data")
@@ -210,4 +210,4 @@ end
 --     throttle() -- call to limit FPS
 -- end
 
-return app_optimizer
+return xiel_optimizer
